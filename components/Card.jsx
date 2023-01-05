@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Card(props) {
   return (
     <div className="card">
-      <img src={`../images/${props.item.imageUrl}`} className="card--image" />
+      <img src={`/images/${props.item.imageUrl}`} className="card--image" />
       <div className="card--info">
         <div className="card--stats">
           <span className="gray">📍{props.item.location} </span>
